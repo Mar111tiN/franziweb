@@ -19,6 +19,8 @@ div.home{position:absolute;width:740px;height:240px;left:50%;margin-left:-370px;
 #col3_content{position:relative}
 #col1{float:left;width:305px}
 #col1_content{margin:5px 30px 30px 10px}
+/*-----------------Einstellung fuer Vita----------*/
+.twocol #col1_content{margin:5px 0px 30px 0px}
 .onecol #col1{display:none}
 #col2{float:right;width:205px;position:relative;height:450px}
 .onecol #col2,
@@ -28,6 +30,9 @@ div.home{position:absolute;width:740px;height:240px;left:50%;margin-left:-370px;
 .twocol #col3{margin-right:0}
 .onecol #col3{margin:0}
 #col3_content.slide{width:800px;left:50%;margin-left:-400px}
+/*-----------------Einstellung fuer Vita----------*/
+.twocol #col1_content{margin:5px 0px 30px 0px}
+.twocol #col1{width:340px}
   /*--- �berschriften ------------------------------*/
 h1,h2{font-weight:normal;margin:0;padding:0}
 h1{font-size:250%}
@@ -67,7 +72,6 @@ tbody th{text-align:left}
 /*--------------Aktuell---------*/
 div#news{width:880px;margin:auto;height:500px}
 div.newsbox {clear:both;position:relative;}
-
 
 /*-----------right picture in box*/
 div.newsbox.rp{height:220px}
