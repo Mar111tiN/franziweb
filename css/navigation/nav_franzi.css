@@ -172,6 +172,11 @@ width:35px;height:12px}
 .fnav #vierzehn:active,
 .fnav #vierzehn:focus,
 .fnav .active #vierzehn{background-position:-315px -90px}
+.fnav #funfzehn{background-position:-350px -70px}
+.fnav #funfzehn:hover,
+.fnav #funfzehn:active,
+.fnav #funfzehn:focus,
+.fnav .active #funfzehn{background-position:-350px -90px}
 .float_left{float:left;display:inline;margin-right:1em;margin-bottom:0.15em}
 .float_right{float:right;display:inline;margin-left:1em;margin-bottom:0.15em}
 .center{text-align:center;margin:0.5em auto}

@@ -11,6 +11,8 @@
 .d2010 .jcarousel-skin{margin-left:-400px;width:800px}
 .d2011 .jcarousel-skin{margin-left:-389px;width:778px}
 .d2013 .jcarousel-skin{margin-left:-405px;width:810px}
+.d2013 .jcarousel-skin{margin-left:-405px;width:810px}
+.d2014 .jcarousel-skin{margin-left:-405px;width:810px}
 .a2000 .jcarousel-skin{margin-left:-350px;width:700px}
 .jcarousel-container {position:relative;padding:20px 40px;margin:auto}
 .jcarousel-clip{z-index:2;padding:0;margin:0;overflow:hidden;position:relative;height:207px}
@@ -23,6 +25,7 @@
 .d2010 .jcarousel-clip{width:720px}
 .d2011 .jcarousel-clip{width:698px}
 .d2013 .jcarousel-clip{width:720px}
+.d2014 .jcarousel-clip{width:720px}
 .a2000 .jcarousel-clip{width:620px}
 .jcarousel-list{z-index:1;overflow:hidden;position:relative;top:0;left:0;margin:0;padding:0}
 .jcarousel-list li,
@@ -35,12 +38,25 @@
 #veil-left{left:130px;background:transparent url(../src/other/left_veil.png) repeat-y}
 #veil-right{right:128px;background:transparent url(../src/other/right_veil.png) repeat-y}
 /*----------Breiten der Bilder m�ssen angepasst werden!!!--------*/
+.d2014 .jcarousel-item-1{width:146px}
+.d2014 .jcarousel-item-2{width:286px}
+.d2014 .jcarousel-item-3{width:290px}
+.d2014 .jcarousel-item-4{width:618px}
+.d2014 .jcarousel-item-5,
+.d2014 .jcarousel-item-8{width:289px}
+.d2014 .jcarousel-item-1{width:146px}
+.d2014 .jcarousel-item-6{width:153px}
+.d2014 .jcarousel-item-7{width:149px}
+.d2014 .jcarousel-item-9,
+.d2014 .jcarousel-item-11{width:287px}
+.d2014 .jcarousel-item-10{width:288px}
 .d2013 .jcarousel-item-1,
 .d2013 .jcarousel-item-2,
 .d2013 .jcarousel-item-3,
 .d2013 .jcarousel-item-4,
 .d2013 .jcarousel-item-6,
 .d2013 .jcarousel-item-7,
+.d2013 .jcarousel-item-12,
 .d2013 .jcarousel-item-13{width:146px}
 .d2013 .jcarousel-item-5,
 .d2013 .jcarousel-item-8,
