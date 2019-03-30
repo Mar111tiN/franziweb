@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media all
 {
-/*------------------------Image -Replacement-----------*/
+/*------------------------Image-Replacement-----------*/
 #header h1,
 #hlist a,
 #hlist li.active span,
@@ -17,5 +17,5 @@
 .prev,
 .next,
 #header h1 a.lang,
-#soon{background:url(../../src/other/nav22_de150511.png) no-repeat}
+#soon{background:url(../../src/other/nav_de.png) no-repeat}
 }
