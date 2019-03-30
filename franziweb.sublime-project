@@ -1,0 +1,40 @@
+{
+    "folders":
+    [
+        {
+            "path" : "/Users/mahtin/Sites/projekte/franziweb161221",
+            "name" : "HTML_de",
+            "follow_symlinks" : false,
+            "folder_exclude_patterns" : ["css", "inc", "src", "drafts","dtd"],
+            "file_exclude_patterns" : ["contact*", "*.sublime-project", "*exhib*", "*news*", "*_en*", "works*", "draw*"]
+        },
+        {
+            "path" : "/",
+            "name" : "HTML_en",
+            "follow_symlinks" : false,
+            "folder_exclude_patterns" : ["css", "inc", "src", "drafts","dtd"],
+            "file_exclude_patterns" : ["kontakt*", "*.sublime-project", "*auss*", "*aktuell*", "*_de*", "arbeiten*",  "objek*", "zeich*"]
+        },
+        {
+            "path" : "css",
+            "name" : "CSS files",
+            "folder_exclude_patterns" : ["patches", "inc"],
+            "follow_symlinks" : true,
+            "file_exclude_patterns" : ["franzi_*.css"]
+        },
+        {
+            "path" : "src",
+            "name" : "pictures",
+            "follow_symlinks" : true
+        },
+        {
+            "path" : "inc",
+            "name" : "JS-tools",
+            "follow_symlinks" : true
+        }
+    ],
+    "settings" :
+    {
+        "tab_size" : 4
+    }
+}
