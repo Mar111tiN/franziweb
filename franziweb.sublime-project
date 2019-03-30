@@ -1,0 +1,33 @@
+{
+    "folders":
+    [
+        {
+            "path" : "/",
+            "name" : "HTML",
+            "follow_symlinks" : false,
+            "folder_exclude_patterns" : ["css", "inc", "src", "drafts","dtd"],
+            "file_exclude_patterns" : ["*.sublime-project"]
+        },
+        {
+            "path" : "css",
+            "name" : "CSS files",
+            "folder_exclude_patterns" : ["patches", "inc"],
+            "follow_symlinks" : true,
+            "file_exclude_patterns" : ["franzi_*.css"]
+        },
+        {
+            "path" : "src",
+            "name" : "pictures",
+            "follow_symlinks" : true
+        },
+        {
+            "path" : "inc",
+            "name" : "JS-tools",
+            "follow_symlinks" : true
+        }
+    ],
+    "settings" :
+    {
+        "tab_size" : 4
+    }
+}
