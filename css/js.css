@@ -181,13 +181,13 @@
 #superbox-overlay{background:#e5e2df}
 /*----Close-/Picture Info----------*/
 .close {overflow:hidden;margin:0;cursor:default;margin:0 auto;width:80px}
-#superbox .close a{width:80px;height:12px;font-size:120%;letter-spacing:2px;color:#ac9e92;cursor:pointer;
+#superbox .close a{width:80px;height:14px;font-size:120%;letter-spacing:2px;color:#ac9e92;cursor:pointer;
 text-indent:-9999px;display:block;background-position:-276px -140px}
 #superbox .close a:focus,
 #superbox .close a:hover,
-#superbox .close a:active{color:#414142;background-position:-276px -155px}
+#superbox .close a:active{color:#414142;background-position:-276px -156px}
 .picinfo{margin:7px -10px 4px;overflow:visible}
-.picinfo strong{font-size:120%;font-weight:normal}
+.picinfo strong{font-size:140%;font-weight:normal}
 /*-------------------------Slide show-------------------------------------------------*/
 #slideshow{height:218px}
 #slidecaption{float:right;font-size:100%;font-weight:300;color:#6d6f71;margin-top:7px}

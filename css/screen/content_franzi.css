@@ -32,7 +32,17 @@ div.home{position:absolute;width:740px;height:240px;left:50%;margin-left:-370px;
 .onecol #col1,
 .onecol #col2{display:none}
 .onecol #col3{margin:0}
- /*--- �berschriften ------------------------------*/
+
+
+/*---Flex-container and Images-----------------------------*/
+#col3_content ul{display:flex;flex-flow:row wrap;justify-content:space-between;}
+#col3_content a img{margin:10px 5px;position:relative;transition:transform 0.4s ease, opacity 0.4s linear, filter 0.4s ease;padding:auto;backface-visibility: hidden;opacity:1;filter:grayscale(0);}
+#col3_content a:hover img{transform:scale(1.02,1.02);opacity:.8;filter:grayscale(70%);}
+#col3_content ul a img{height:180px;}
+
+
+#col3_content iframe{margin:10px 5px;}
+/*--- �berschriften ------------------------------*/
 h1,h2{font-weight:normal;margin:0;padding:0}
 h1{font-size:250%}
 h2{font-size:120%;margin-bottom:20px;line-height:1.2em}
@@ -100,6 +110,8 @@ div.newsbox.rp{height:220px}
 .cp .picbox .picboxbox p{position:absolute;bottom:-30px}
 .newsbox.lp{height:260px}
 .newsbox.np#box7{height:360px}
+
+
 /*------------Box dimensions----------pic-height-+-23px*/
 .newsbox#box23{height:210px}
 .newsbox#box10{height:220px}
