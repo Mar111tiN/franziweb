@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@media all
+{
+/*------------------------Links general--------------------------------------------*/
+a {background:transparent;text-decoration:none}
+a:active,
+a:focus{outline:none;border:none}
+#hnav li,
+#hlist ul,
+.fnav ul,
+#contact a,
+#hlist li,
+.fnav li,
+#header h1,
+#nav{position:relative;display:inline;float:left}
+/*------------------------Image -Replacement-----------*/
+.fnav ul li a,
+.fnav ul li.active span,
+#hlist li a,
+#hlist li.active span,
+.flip,
+.flip a{text-indent:-9990px;display:block}
+/*-------------Home----Navigation---------*/
+#hnav{width:350px;position:absolute;left:50%;margin-left:-175px}
+.home h1{font-family:'Helvetica',sans-serif;font-size:330%;color:#414142;text-align:center;font-weight:normal;font-variant:small-caps;letter-spacing:4px;
+height:31px;width:350px;background-position:0 -105px;margin:25px auto}
+#hnav li{margin:30px 40px 0 40px}
+#hnav a{font-weight:bold;color:#6d6f71;font-size:1.2em;height:18px;width:90px;background-position:0 -170px}
+.home #hnav #left{background-position:0 -170px}
+.home #hnav #left:hover,
+.home #hnav #left:active,
+.home #hnav #left:focus{background-position:0 -190px}
+#hnav #right{background-position:-90px -170px}
+#hnav #right:hover,
+#hnav #right:active,
+#hnav #right:focus{background-position:-90px -190px}
+/*------------------------Header und Footer------------------------------------------*/
+/*---------------Headline---------*/
+#header h1{font-size:170%;color:#ac9e92;font-weight:bold;font-variant:small-caps;font-family:'Helvetica',sans-serif; letter-spacing:1.5px;
+margin-top:10px;height:23px;width:255px;background-position:0 -140px}
+#header h1 a{color:#ac9e92;height:33px; width:250px;overflow:hidden}
+/*---------------Language Switch---------*/
+#header h1 a.lang{position:absolute;z-index:2;top:30px;height:15px;width:60px;left:184px;background-position:-140px -285px;display:none}
+#header h1:hover a.lang{display:inline}
+#header h1:hover a.lang:hover{background-position:-140px -305px}
+/*---------------Main-Navition----*/
+#nav{margin-top:0.5em;clear:none;overflow:hidden;margin-left:-5px}
+#hlist{overflow:hidden;float:left;display:inline;position:relative;line-height:0;height:8em}
+#hlist li{font-size:1em;margin:12px 5px 0.5em 82px}
+#hlist li a,
+#hlist li.active span{font-size:140%;font-weight:bold;font-variant:small-caps;font-family:'Helvetica',sans-serif;
+text-decoration:none;width:90px;height:20px}
+#hlist #eins:hover,
+#hlist #eins:active,
+#hlist #eins:focus,
+#hlist .active #eins{background-position:0 -20px}
+#hlist ul li ul{display:none}
+#hlist ul li:hover ul,
+#hlist ul li:focus ul,
+#hlist ul li:active ul,
+#hlist ul li.active ul{display:block}
+#hlist #zwei{background-position:-90px 0}
+#hlist #zwei:hover,
+#hlist #zwei:active,
+#hlist #zwei:focus,
+#hlist .active #zwei{background-position:-90px -20px}
+#hlist #drei{background-position:-180px 0}
+#hlist #drei:hover,
+#hlist #drei:active,
+#hlist #drei:focus,
+#hlist .active #drei{background-position:-180px -20px}
+#hlist #vier{background-position:-270px 0}
+#hlist #vier:hover,
+#hlist #vier:active,
+#hlist #vier:focus,
+#hlist .active #vier{background-position:-270px -20px}
+/*-----------------Ohne Bilder-------------------*/
+#hlist ul li a {color:#808080;}
+#hlist ul li a:focus,
+#hlist ul li a:hover,
+#hlist ul li a:active,
+#hlist ul li.active span,
+#hlist ul li.active > a{color:#b75d46;}
+/*------------------------Subnavigation-------------------*/
+#hlist li ul{position:absolute;font-size:80%;color:#414142;letter-spacing:2px;top:2em;left:24px}
+#hlist li ul li{float:none;display:block;margin:4px 0}
+#hlist li li #einseins,
+#hlist li li #einszwei,
+#hlist li li #einsdrei,
+#hlist li li #einsvier{color:#ac9e92;height:12px;width:180px}
+#hlist li li a:focus,
+#hlist li li a:hover,
+#hlist li li a:active,
+#hlist li .active span {color:#414142}
+#hlist #einseins {background-position:0 -40px}
+#hlist #einseins:hover,
+#hlist #einseins:active,
+#hlist #einseins:focus,
+#hlist li ul li.active #einseins {background-position:0 -55px}
+#hlist #einszwei{background-position:0 -255px}
+#hlist #einszwei:hover,
+#hlist #einszwei:active,
+#hlist #einszwei:focus,
+#hlist li ul li.active #einszwei{background-position:0 -270px}
+#hlist #einsdrei{background-position:-180px -40px}
+#hlist #einsdrei:hover,
+#hlist #einsdrei:active,
+#hlist #einsdrei:focus,
+#hlist li li.active #einsdrei{background-position:-180px -55px}
+#hlist #einsvier{background-position:-195px -255px}
+#hlist #einsvier:hover,
+#hlist #einsvier:active,
+#hlist #einsvier:focus,
+#hlist li ul li.active #einsvier{background-position:-195px -270px}
+/*------------------------------Footer Navigation-----------------------------------*/
+.fnav ul li{font-size:1.0em;line-height:1em;list-style-type:none;margin:0.5em 1em 0.5em 0}
+.fnav ul li a,
+.fnav ul li.active span{font-size:130%;font-weight:bold;font-variant:small-caps;font-family:'Helvetica',sans-serif;
+width:35px;height:12px}
+.fnav ul li a{color:#6d6f71}
+.fnav ul li a:focus,
+.fnav ul li a:hover,
+.fnav ul li a:active,
+.fnav ul li.active span{color:#000000}
+.fnav ul li #funf{background-position:0 -70px;display:none} /*weggenommen*/
+.fnav #funf:hover,
+.fnav #funf:active,
+.fnav #funf:focus,
+.fnav .active #funf{background-position:0 -90px}
+.fnav #sechs{background-position:-35px -70px}
+.fnav #sechs:hover,
+.fnav #sechs:active,
+.fnav #sechs:focus,
+.fnav .active #sechs{background-position:-35px -90px}
+.fnav ul li #sieben{background-position:-70px -70px}
+.fnav #sieben:hover,
+.fnav #sieben:active,
+.fnav #sieben:focus,
+.fnav .active #sieben{background-position:-70px -90px}
+.fnav #acht{background-position:-105px -70px}
+.fnav #acht:hover,
+.fnav #acht:active,
+.fnav #acht:focus,
+.fnav .active #acht{background-position:-105px -90px}
+.fnav #neun{background-position:-140px -70px}
+.fnav #neun:hover,
+.fnav #neun:active,
+.fnav #neun:focus,
+.fnav .active #neun{background-position:-140px -90px}
+.fnav #zehn{background-position:-175px -70px}
+.fnav #zehn:hover,
+.fnav #zehn:active,
+.fnav #zehn:focus,
+.fnav .active #zehn{background-position:-175px -90px}
+.fnav #elf{background-position:-210px -70px}
+.fnav #elf:hover,
+.fnav #elf:active,
+.fnav #elf:focus,
+.fnav .active #elf{background-position:-210px -90px}
+.fnav #zwelf{background-position:-245px -70px}
+.fnav #zwelf:hover,
+.fnav #zwelf:active,
+.fnav #zwelf:focus,
+.fnav .active #zwelf{background-position:-245px -90px}
+.fnav #dreizehn{background-position:-280px -70px}
+.fnav #dreizehn:hover,
+.fnav #dreizehn:active,
+.fnav #dreizehn:focus,
+.fnav .active #dreizehn{background-position:-280px -90px}
+.fnav #vierzehn{background-position:-315px -70px}
+.fnav #vierzehn:hover,
+.fnav #vierzehn:active,
+.fnav #vierzehn:focus,
+.fnav .active #vierzehn{background-position:-315px -90px}
+.float_left{float:left;display:inline;margin-right:1em;margin-bottom:0.15em}
+.float_right{float:right;display:inline;margin-left:1em;margin-bottom:0.15em}
+.center{text-align:center;margin:0.5em auto}
+#soon{width:140px;height:14px;background-position:0 -286px;position:absolute;left:50%;margin-left:-70px;top:140px}
+/*------------------------Vita Links------------------------------------------*/
+#vita a{color:#505153}
+#news a{color:#6D6F71}
+#vita a:hover,
+#news a:hover,
+#news .picbox a{color:#B75D46}
+}

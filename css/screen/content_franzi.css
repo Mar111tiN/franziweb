@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* "Yet Another Multicolumn Layout" v3.1 (c) by Dirk Jesse (http://www.yaml.de)
+* $Revision: 343 $ $Date: 2009-01-19 23:41:32 +0100 (Mo, 19. Jan 2009) $ */
+@media all
+{html *{font-size:100.01%}
+body {font-size:75.00%;color:#6d6f71;font-family:'Garamond','Times','Times New Roman','Trebuchet MS',sans-serif}
+#main{font-size:135%;font-weight:500;word-spacing:0px;letter-spacing:0px;line-height:1em}
+/* ------------Spaltenlayout-------------------------------------------------------*/
+html{height:100%;margin-bottom:0px}
+body{height:99%}
+div.home{position:absolute;width:740px;height:240px;left:50%;margin-left:-370px;top:50%;margin-top:-120px}
+.page_margins{margin:0 10px;cursor:default}
+.page{text-align:left;width:960px;margin:0 auto}
+#header{float:left;width:100%;min-height:120px;line-height:normal;margin:30px 0 15px 0;overflow:visible}
+#main{clear:both}
+#footer{margin-left:308px;margin-top:100px}
+#col1_content,
+#col2_content,
+#col3_content{position:relative}
+#col1{float:left;width:305px}
+#col1_content{margin:5px 30px 30px 10px}
+.onecol #col1{display:none}
+#col2{float:right;width:205px;position:relative;height:450px}
+.onecol #col2,
+.twocol #col2{display:none}
+#col2_content{position:absolute;bottom:50px;left:-30px;z-index:2}
+#col3{margin:0 205px 0 305px;width:auto;height:300px}
+.twocol #col3{margin-right:0}
+.onecol #col3{margin:0}
+#col3_content.slide{width:800px;left:50%;margin-left:-400px}
+  /*--- �berschriften ------------------------------*/
+h1,h2{font-weight:normal;margin:0;padding:0}
+h1{font-size:250%}
+h2{font-size:120%;margin-bottom:20px;line-height:1.2em}
+h3{font-weight:normal;font-size:100%}
+/* ------------Listen-----------------------------*/
+ul{line-height:1.5em;margin:0}
+ul li{list-style-type:none}
+li{margin-left:0;line-height:1.5em}
+/* -------Allgemeine Textauszeichnung ------------*/
+p{line-height:1.2em;margin:0}
+strong{font-weight:bold}
+em,i{font-style:italic}
+#contact{position:absolute;width:300px;height:150px;margin-top:140px;left:50%;margin-left:-150px}
+#contact a{width:230px;height:16px;background-position:0 -214px;margin-left:40px}
+#phone{width:240px;height:14px;background-position:0 -235px;color:#414142;font-size:112%;text-align:center;margin-left:40px;margin-top:5px}
+/* -------Tabellen------------*/
+table{width:auto;border-collapse:collapse;margin:-20px auto auto 40px;border:none;table-layout:fixed}
+table caption{font-variant:small-caps}
+table.full{width:100%}
+table.fixed{table-layout:fixed}
+th,td{padding:0.2em;border:none}
+td.last{padding:7px 0 0 113px}
+.slide #slidetext p{margin-top:45px;font-size:1em;text-align:justify}
+#slidetext span{float:right;display:block;clear:both}
+#slidetext span.title{margin-top:20px}
+#slidetext span.autor{font-size:95%}
+:lang(de){quotes:"\201E" "\201C" "\201A" "\2018"}
+:lang(en){quotes:"\201C" "\201D" "\2018" "\2019"}
+q:before{content:open-quote}
+q:after{content:close-quote}
+td strong{font-weight:normal}
+tbody th{font-size:110%;font-weight:normal;padding-bottom:8px}
+tbody th[scope="row"],
+tbody th.sub{background:#f0f0f0}
+tbody th{text-align:left}
+/*--------------Aktuell---------*/
+div#news{width:880px;margin:auto;height:500px}
+div.newsbox {clear:both;position:relative;}
+
+
+/*-----------right picture in box*/
+div.newsbox.rp{height:220px}
+.rp div.infobox{float:left;width:300px;margin-left:50px}
+.rp div.infoboxbox{position:absolute;bottom:75px}
+.rp div.picbox{float:left}
+.rp div.picboxbox{position:absolute;bottom:60px;width:500px}
+.rp .picbox img{float:left;margin:5px}
+
+/*------------left picture in box*/
+.lp div.infobox{float:right;width:300px;margin-left:50px}
+.lp div.infoboxbox{float:left;position:absolute;bottom:45px}
+.lp div.picbox{float:left;margin-left:200px}
+.lp div.picboxbox{float:right;position:absolute;bottom:30px}
+.lp .picbox img{float:left;margin:5px}
+
+/*------------no picture in box*/
+.np div.infobox{float:left;width:300px;margin-left:180px}
+.np div.infoboxbox{position:absolute;bottom:45px}
+.np div.picbox{display:none}
+
+/*-----------centered picture in box*/
+.cp .picbox{margin-left:180px;width:500px}
+.cp .picboxbox{position:absolute;bottom:60px}
+.cp .infobox{float:right;width:80px;margin-right:100px}
+.cp .infoboxbox{position:absolute;bottom:70px}
+.cp .picbox .picboxbox p{position:absolute;bottom:-30px}
+.newsbox.lp{height:260px}
+.newsbox.np#box7{height:360px}
+/*------------Box dimensions----------*/
+.newsbox#box10{height:220px}
+.newsbox#box6{height:220px}
+.newsbox#box5{height:440px;background:#ffffff}
+.newsbox#box4{height:480px}
+.newsbox#box3{height:350px}
+.newsbox#box2{height:320px}
+.newsbox#box1{height:320px}
+.newsbox#box4 .picbox{margin-left:400px;width:480px}
+.newsbox#box3 .picbox{margin-left:440px;width:430px}
+.newsbox#box2 .picbox{margin-left:450px;width:430px}
+.newsbox#box1 .picbox{margin-left:450px;width:430px}
+
+
+.infobox span#subheader{position:absolute;top:20px;padding:5px}
+.infobox h2{font-style:italic;font-size:130%}
+.infobox h3{padding-left:5px;font-style:italic;font-size:160%;margin-bottom:20px;line-height:1.2em}
+.infobox p{line-height:1.15em;padding:5px}
+.infobox p.brandnew{color:black}
+
+/*------------VITA--------------*/
+
+span.exib{font-size:85%}
+table#vita_legend{font-size:85%;margin-left:0}
+span.days{display:block;width:140px}
+span.adress_header{color:black;line-height:2em}
+.picbox img{float:left;margin:5px}
+.line{width:880px;height:1px;background:url(../../src/other/line.jpg) no-repeat;margin-bottom:45px}
+/*-----Arbeiten--------*/
+#exhibition{margin-top:155px}
+#exhibition p{margin-bottom:15px;font-size:110%}
+#exhibition h2{color:#b75d46}
+.pic{margin-top:-20px}
+/*-----Impressum--------*/
+#impressum{position:relative}
+#inimpressum{width:800px;left:50%;margin-left:-400px;position:absolute;margin-top:90px}
+#inimpressum h3{margin-bottom:7px}
+}

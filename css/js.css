@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@media all
+{/*------------------------JCarousel-------------------------------------------*/
+.jcarousel-skin{position:absolute;left:50%;top:50px}
+.d2005 .jcarousel-skin,
+.d2007 .jcarousel-skin{margin-left:-374px;width:748px}
+.d2006 .jcarousel-skin,
+.d2008 .jcarousel-skin,
+.o2000 .jcarousel-skin{margin-left:-389px;width:778px}
+.d2009 .jcarousel-skin{margin-left:-350px;width:700px}
+.d2010 .jcarousel-skin{margin-left:-400px;width:800px}
+.d2011 .jcarousel-skin{margin-left:-389px;width:778px}
+.d2013 .jcarousel-skin{margin-left:-405px;width:810px}
+.a2000 .jcarousel-skin{margin-left:-350px;width:700px}
+.jcarousel-container {position:relative;padding:20px 40px;margin:auto}
+.jcarousel-clip{z-index:2;padding:0;margin:0;overflow:hidden;position:relative;height:207px}
+.d2005 .jcarousel-clip,
+.d2007 .jcarousel-clip{width:668px}
+.d2006 .jcarousel-clip,
+.d2008 .jcarousel-clip,
+.o2000 .jcarousel-clip{width:698px}
+.d2009 .jcarousel-clip{width:620px}
+.d2010 .jcarousel-clip{width:720px}
+.d2011 .jcarousel-clip{width:698px}
+.d2013 .jcarousel-clip{width:720px}
+.a2000 .jcarousel-clip{width:620px}
+.jcarousel-list{z-index:1;overflow:hidden;position:relative;top:0;left:0;margin:0;padding:0}
+.jcarousel-list li,
+.jcarousel-item{float:left;list-style:none;height:207px;margin:0 20px}
+.nextprev {overflow:hidden;margin:0;cursor:default}
+.jcarousel-next{z-index:3;display:none}
+.jcarousel-prev{z-index:3;display:none}
+#veil-left,
+#veil-right{position:absolute;width:25px;height:207px;z-index:4;top:70px}
+#veil-left{left:130px;background:transparent url(../src/other/left_veil.png) repeat-y}
+#veil-right{right:128px;background:transparent url(../src/other/right_veil.png) repeat-y}
+/*----------Breiten der Bilder m�ssen angepasst werden!!!--------*/
+.d2013 .jcarousel-item-1,
+.d2013 .jcarousel-item-2,
+.d2013 .jcarousel-item-3,
+.d2013 .jcarousel-item-4,
+.d2013 .jcarousel-item-6,
+.d2013 .jcarousel-item-7,
+.d2013 .jcarousel-item-13{width:146px}
+.d2013 .jcarousel-item-5,
+.d2013 .jcarousel-item-8,
+.d2013 .jcarousel-item-9,
+.d2013 .jcarousel-item-10{width:293px}
+.d2011 .jcarousel-item-1{width:289px}
+.d2011 .jcarousel-item-2{width:290px}
+.d2011 .jcarousel-item-3{width:290px}
+.d2011 .jcarousel-item-4{width:290px}
+.d2011 .jcarousel-item-5{width:295px}
+.d2010 .jcarousel-item-1{width:149px}
+.d2010 .jcarousel-item-2{width:260px}
+.d2010 .jcarousel-item-3{width:203px}
+.d2010 .jcarousel-item-4{width:149px}
+.d2010 .jcarousel-item-5{width:155px}
+.d2010 .jcarousel-item-6{width:150px}
+.d2009 .jcarousel-item{width:145px}
+.d2009 .jcarousel-item-3{width:155px}
+.d2009 .jcarousel-item-9{width:283px}
+.d2009 .jcarousel-item-10{width:218px}
+.d2009 .jcarousel-item-12{width:296px}
+.d2009 .jcarousel-item-6,
+.d2009 .jcarousel-item-13,
+.d2009 .jcarousel-item-14,
+.d2009 .jcarousel-item-15,
+.d2009 .jcarousel-item-16{width:205px}
+.d2009 .jcarousel-item-1{width:156px}
+.d2009 .jcarousel-item-4{width:137px}
+.d2009 .jcarousel-item-2{width:289px}
+.d2008 .jcarousel-item{width:147px}
+.d2008 .jcarousel-item-3,
+.d2008 .jcarousel-item-4,
+.d2008 .jcarousel-item-7{width:290px}
+.d2008 .jcarousel-item-9{width:298px}
+.d2007 .jcarousel-item{width:296px}
+.d2007 .jcarousel-item-7{width:147px}
+.d2007 .jcarousel-item-9{width:155px}
+.d2007 .jcarousel-item-8,
+.d2007 .jcarousel-item-10{width:152px}
+.d2006 .jcarousel-item{width:150px}
+.d2006 .jcarousel-item-2,
+.d2006 .jcarousel-item-6,
+.d2006 .jcarousel-item-10,
+.d2006 .jcarousel-item-14,
+.d2006 .jcarousel-item-15,
+.d2006 .jcarousel-item-16{width:285px}
+.d2005 .jcarousel-item{width:150px}
+.d2005 .jcarousel-item-1,
+.d2005 .jcarousel-item-2,
+.d2005 .jcarousel-item-4{width:290px}
+.d2005 .jcarousel-item-8{width:112px}
+.d2005 .jcarousel-item-9{width:237px}
+.d2005 .jcarousel-item-14{width:205px}
+.d2005 .jcarousel-item-15{width:81px}
+.o2000 .jcarousel-item{width:288px}
+.o2000 .jcarousel-item-7{width:380px}
+.o2000 .jcarousel-item-6{width:276px}
+.o2000 .jcarousel-item-5{width:235px}
+.o2000 .jcarousel-item-4{width:155px}
+.o2000 .jcarousel-item-3{width:287px}
+.o2000 .jcarousel-item-2{width:283px}
+.o2000 .jcarousel-item-1{width:325px}
+.a2000 .jcarousel-item-13,
+.a2000 .jcarousel-item-12,
+.a2000 .jcarousel-item-2,
+.a2000 .jcarousel-item-1{width:276px}
+.a2000 .jcarousel-item-11{width:260px}
+.a2000 .jcarousel-item-10,
+.a2000 .jcarousel-item-9,
+.a2000 .jcarousel-item-8{width:310px}
+.a2000 .jcarousel-item-7{width:202px}
+.a2000 .jcarousel-item-6{width:271px}
+.a2000 .jcarousel-item-5{width:154px}
+.a2000 .jcarousel-item-4{width:266px}
+.a2000 .jcarousel-item-3{width:158px}
+.jcarousel-item-placeholder{background:#fff;color:#000}
+.jcarousel-clip img{margin:auto 0}
+/*--------------------------Horizontal Buttons (Auch f�r JCarousel!!!)--------------*/
+.jcarousel-prev,
+.jcarousel-next,
+.prev,
+.next {position:absolute;width:24px;height:22px;cursor:pointer;}
+.jcarousel-prev,
+.jcarousel-next {top:106px}
+.next,
+.prev {top:16px;}
+/*----NEXT-----------*/
+.jcarousel-next{right:0}
+.next{right:20px}
+.jcarousel-next,
+.next{background-position:-180px -192px}
+.jcarousel-next:hover,
+.next:hover{background-position:-204px -192px}
+.jcarousel-next:active,
+.next:active{background-position:-228px -192px}
+.jcarousel-next-disabled,
+.jcarousel-next-disabled:hover,
+.next.disabled{background-position:-252px -192px;cursor:auto}
+/*----PREV-----------*/
+.jcarousel-prev{left:0}
+.prev{left:20px}
+.jcarousel-prev,
+.prev{background-position:-180px -170px}
+.jcarousel-prev:hover,
+.prev:hover{background-position:-204px -170px}
+.jcarousel-prev:active,
+.prev:active{background-position:-228px -170px}
+.jcarousel-prev-disabled,
+.jcarousel-prev-disabled:hover,
+.prev.disabled{background-position: -252px -170px;cursor:auto}
+/*---------Superbox-----------------------------------------------------------------*/
+/*---------Base Superbox Styles--------------*/
+#superbox-overlay{position:fixed;top:0;left:0;z-index:9998;width:100%;height:100%}
+#superbox-wrapper{position:fixed;z-index:9999;top:0;display:table;width:100%;height:100%}
+#superbox-container{position:relative;display:table-cell;width:100%;height:100%;margin:0;padding:0;vertical-align:middle}
+#superbox{margin:0 auto;padding:0}
+#superbox-container .loading{margin:0;text-align:center}
+#superbox-container .loading{text-align:center;font-size:40px;color:#fff}
+#superbox{padding:20px 30px 30px;background:#fff}
+#superbox-innerbox{padding:15px 0;cursor:default}
+#superbox.image{text-align:center}
+#superbox-overlay{background:#e5e2df}
+/*----Close-/Picture Info----------*/
+.close {overflow:hidden;margin:0;cursor:default;margin:0 auto;width:80px}
+#superbox .close a{width:80px;height:12px;font-size:120%;letter-spacing:2px;color:#ac9e92;cursor:pointer;
+text-indent:-9999px;display:block;background-position:-276px -140px}
+#superbox .close a:focus,
+#superbox .close a:hover,
+#superbox .close a:active{color:#414142;background-position:-276px -155px}
+.picinfo{margin:7px -10px 4px;overflow:visible}
+.picinfo strong{font-size:120%;font-weight:normal}
+/*-------------------------Slide show-------------------------------------------------*/
+#slideshow{height:218px}
+#slidecaption{float:right;font-size:100%;font-weight:300;color:#6d6f71;margin-top:7px}
+}
