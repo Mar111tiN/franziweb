@@ -20,6 +20,22 @@ a:focus{outline:none;border:none}
 #hlist li.active span,
 .flip,
 .flip a{text-indent:-9990px;display:block}
+#header h1,
+#hlist a,
+#hlist li.active span,
+.fnav li a,
+#contact a,
+#phone,
+.fnav li.active span,
+#hnav a,
+.home h1,
+#superbox .close a,
+.jcarousel-next,
+.jcarousel-prev,
+.prev,
+.next,
+#header h1 a.lang,
+#soon{background-size:394px}
 /*-------------Home----Navigation---------*/
 #hnav{width:350px;position:absolute;left:50%;margin-left:-175px}
 .home h1{font-family:'Helvetica',sans-serif;font-size:330%;color:#414142;text-align:center;font-weight:normal;font-variant:small-caps;letter-spacing:4px;

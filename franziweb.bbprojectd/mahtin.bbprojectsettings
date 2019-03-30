@@ -17,6 +17,28 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
+			AAAAAAFYAAIAAAJIUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAQkQAAf////8GanMuY3NzAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+			/wAAAABURVhUAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAA2Nz
+			cwAAAgBDLzpVc2VyczptYWh0aW46RG9jdW1lbnRzOlBlcnNvbmFs
+			OldlYjpQcm9qZWt0ZTpmcmFueml3ZWI6Y3NzOmpzLmNzcwAADgAO
+			AAYAagBzAC4AYwBzAHMADwAGAAIASABRABIAQVVzZXJzL21haHRp
+			bi9Eb2N1bWVudHMvUGVyc29uYWwvV2ViL1Byb2pla3RlL2ZyYW56
+			aXdlYi9jc3MvanMuY3NzAAATAAEvAAAVAAIADf//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/mahtin/Documents/Personal/Web/Projekte/franziweb/css/js.css</string>
+			<key>RelativePath</key>
+			<string>./css/js.css</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
 			AAAAAAGQAAIAAAJIUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 			AAAAQkQAAf////8VemVpY2hudW5nZW5fMjAxMC5odG1sAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
@@ -71,6 +93,6 @@
 	<key>ViewSplitterPosition:mahtin</key>
 	<real>0.12453669309616089</real>
 	<key>WindowFrame:mahtin:displays([(0, 0), (1680, 1050)])</key>
-	<string>rect(70,251,965,1600)</string>
+	<string>rect(58,42,953,1391)</string>
 </dict>
 </plist>
