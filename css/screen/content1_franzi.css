@@ -56,8 +56,31 @@ p{line-height:1.2em;margin:0}
 strong{font-weight:bold}
 em,i{font-style:italic}
 #contact{position:absolute;width:300px;height:150px;margin-top:140px;left:50%;margin-left:-150px}
-#contact a{width:230px;height:16px;background-position:0 -214px;margin-left:40px}
-#phone{width:240px;height:14px;background-position:0 -235px;color:#414142;font-size:112%;text-align:center;margin-left:40px;margin-top:5px}
+#contact p.email {
+    width:230px;
+    height:16px;
+    background-position:0 -214px;
+    margin-left:40px
+}
+#contact p.phone {
+    width:240px;
+    height:14px;
+    background-position:0 -235px;
+    color:#414142;font-size:112%;
+    text-align:center;
+    margin-left:40px;
+    margin-top:5px
+}
+#contact p.insta {
+    width:240px;
+    height: 16px;
+    background-position: 0 -256px;
+    color:#414142;
+    font-size:112%;
+    text-align:center;
+    margin-left:40px;
+    margin-top:7px
+}
 /* -------Tabellen------------*/
 table{width:auto;border-collapse:collapse;margin:-20px auto auto 40px;border:none;table-layout:fixed}
 table caption{font-variant:small-caps}
